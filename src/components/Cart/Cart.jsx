@@ -1,6 +1,6 @@
 import classes from './Cart.module.css'
 const Cart = props =>{
-    const cartItems = <ul>{[{
+    const cartItems = <ul className={classes['cart-items']}>{[{
         id: 'm1',
         name: 'Bolo no Pote sensação',
         description: 'Chocolate Cicao, morangos frescos',
@@ -10,8 +10,13 @@ const Cart = props =>{
     return(
         <div>
            { cartItems}
-            <div></div>
-            <div></div>
+            <div className={classes.total} ><span>Total Amount</span>
+                <span>27.5</span>
+            </div>
+            <div className={classes.actions}>
+                <button className={classes['button--alt']}>Fechar</button>
+                <button className={classes.button}>Pedir</button>
+            </div>
         </div>
     )
 }
