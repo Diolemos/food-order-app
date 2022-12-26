@@ -17,7 +17,7 @@ const Cart = props =>{
     return(
         <Modal onCloseCart={props.onCloseCart}>
            { cartItems}
-            <div className={classes.total} ><span>Total Amount</span>
+            <div className={classes.total} ><span>Valor Total</span>
                 <span>{totalAmount}</span>
             </div>
             <div className={classes.actions}>
