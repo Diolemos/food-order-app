@@ -3,7 +3,7 @@ import Input from '../../UI/Input'
 const MealItemForm = props=>{
     return(
         <form className={classes.form}>
-            <Input label="Amount" input={{id:"amount", type:"number", min:"1", max:"5000", step:"1", defaultValue:"0"}}/>
+        <Input label="unidades" input={{id:"amount" + props.id, type:"number", min:"0", max:"5000", step:"1", defaultValue:"0"}}/>
             <button>+ Adicionar</button>
         </form>
     )
