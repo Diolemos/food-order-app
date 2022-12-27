@@ -1,8 +1,9 @@
+@import '../../style/vars.css';
 .button {
     cursor: pointer;
     font: inherit;
     border: none;
-    background-color: #13014d;
+    background-color:var(--main-color-light);
     color: white;
     padding: 0.75rem 3rem;
     display: flex;
@@ -10,11 +11,16 @@
     align-items: center;
     border-radius: 25px;
     font-weight: bold;
+    transition:all ease-in-out 300ms;
   }
   
-  .button:hover,
-  .button:active {
-    background-color: #07002c;
+  .button:hover
+   {
+    background-color:var(--main-color-light);
+    transform: scale(1.1);
+  }
+  .button:active{
+    transform: scale(1);
   }
   
   .icon {
@@ -29,12 +35,16 @@
     border-radius: 25px;
     margin-left: 1rem;
     font-weight: bold;
+    
   }
   
   .button:hover .badge,
   .button:active .badge {
-    background-color: #d64fe3;
+    background-color: var(--main-color-tint);
+   
   }
+
+  
   
   .bump {
     animation: bump 300ms ease-out;
