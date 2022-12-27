@@ -8,11 +8,12 @@
     margin: auto;
     margin-top: -10rem;
     position: relative;
-    background-color: var(--main-color);
-    color: white;
-    border-radius: 14px;
-    padding: 1rem;
-    box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    color: rgb(7, 25, 158);
+    font-weight: 600;
+    border-radius: 2px;
+    padding: 1.8rem;
+    box-shadow: 0 1px 8px 6px rgba(0, 0, 0, 0.25);
   }
   
   .summary h2 {
