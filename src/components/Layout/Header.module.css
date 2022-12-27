@@ -29,7 +29,15 @@ background: linear-gradient(90deg, rgb(216, 239, 248) 0%, rgba(185,234,255,1) 27
       font-family: 'Oleo Script', cursive;
       color:#0d30bd;
       
-    }}
+      
+    }
+    .header{
+      justify-content: space-between;
+      padding: 0 10px 0 10px;
+    }
+  }
+
+ 
 
   
   .main-image {
