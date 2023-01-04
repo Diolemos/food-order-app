@@ -1,7 +1,8 @@
 .meal {
     display: flex;
     justify-content: space-between;
-    margin: 1rem;
+    align-items: center;
+    margin: 1rem 3rem;
     padding-bottom: 1rem;
     border-bottom: 1px solid rgb(113, 142, 156);
     color: rgb(12, 25, 124);
@@ -14,6 +15,18 @@
   
   .description {
     font-style: italic;
+    margin-right: 40px;
+    max-width: 400px;
+    
+    
+  }
+  @media only screen and (max-width: 469px){
+    .description{
+      width: 100%;
+  
+    }
+
+
   }
   
   .price {
