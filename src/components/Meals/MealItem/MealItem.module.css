@@ -23,9 +23,11 @@
   @media only screen and (max-width: 469px){
     .description{
       width: 100%;
-  
+      
     }
-
+    .meal{
+      margin: 0;
+    }
 
   }
   
