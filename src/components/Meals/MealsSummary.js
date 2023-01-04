@@ -7,11 +7,11 @@ const MealSummary = ()=>{
         Brigadeiria Gourmet e Doceria
     </h2>
     <p>
-    Doces e Bolos deliciosos, de vários sabores. Para várias ocasiões. Bolos no pote para o fim de semana ou Bolos para aquele grande evento
+    Trabalhamos para trazer a magia em forma de brigadeiro. Você encontrará os melhores sabores de brigadeiro gourmet aqui!
     </p>
 
     <p>
-    Nossos doces são produzidos com os melhores ingredientes. os melhores chocolates, frutas e coberturas. Seguindo as melhores e mais recentes técnicas 
+    Trabalhamos com encomendas de brigadeiros para que seu evento seja inesquecível.
     </p>
     </section>
    
